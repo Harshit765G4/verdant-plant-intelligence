@@ -1,0 +1,96 @@
+﻿# Python environments and caches
+.venv/
+.venv-*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Dataset files and absolute-path manifests
+data/
+
+# Trained checkpoints and exported model weights
+models/*.pth
+models/*.pt
+models/*.keras
+models/*.onnx
+
+# Generated reports may contain local paths; add sanitized reports later
+reports/
+
+# Notebook temporary files
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Node.js / Next.js
+node_modules/
+.next/
+out/
+dist/
+coverage/
+
+# Local editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+
+.gitignore
+
+
+# All local model artifacts
+models/*.h5
+models/*.hdf5
+models/*.tflite
+models/*.safetensors
+
+# Local experiment artifacts and temporary data
+*.csv
+*.parquet
+*.pkl
+*.pickle
+*.joblib
+*.tmp
+
+# Environment and machine-specific files
+.python-version
+pip-wheel-metadata/
+
+
+
+# Local cleanup backups
+notebooks-backup-before-cleanup/
+
+# Additional model formats
+models/*.h5
+models/*.hdf5
+models/*.tflite
+models/*.safetensors
+
+# Local experiment artifacts
+*.parquet
+*.pkl
+*.pickle
+*.joblib
+*.tmp
+
+# Python version metadata
+.python-version
+pip-wheel-metadata/
+
+
+# Placeholder notebook awaiting implementation
+notebooks/04_model_evaluation.ipynb
